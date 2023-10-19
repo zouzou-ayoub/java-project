@@ -1,5 +1,5 @@
 
-public class ConsumerProduct implements Product {
+public abstract class ConsumerProduct implements Product {
     private String nom; 
     private double prix_ht;  
     protected double VAT = 0.2; //vat = taxe(tva) 
@@ -35,7 +35,7 @@ public class ConsumerProduct implements Product {
     }
 
     // Méthode pour obtenir le prix HT d'un produit en vente unitaire
-    public double getUnitPrice(){return 0;}; 
+    public abstract double getUnitPrice(); 
 
     // Méthode pour obtenir le prix TTC d'un produit en vente unitaire
     public double getUnitVatPrice(){
