@@ -1,4 +1,4 @@
-package TD2;
+
 public interface Product {
 
     double getPrix_ht();

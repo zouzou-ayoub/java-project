@@ -1,4 +1,4 @@
-package TD2;
+
 public class FoodProductSoldByVolume extends FoodProduct {
     private double Volume; 
 

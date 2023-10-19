@@ -1,4 +1,4 @@
-package TD2;
+
 public class ConsumerProduct implements Product {
     private String nom; 
     private double prix_ht;  

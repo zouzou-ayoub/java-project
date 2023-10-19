@@ -1,4 +1,4 @@
-package TD2;
+
 public class UnitProduct extends ConsumerProduct {
 
     public UnitProduct(String _nom, double _prix_ht){

@@ -1,4 +1,4 @@
-package TD2;
+
 public class FoodProduct extends ConsumerProduct{
 
     private Deadline DLV; // Objet composer 

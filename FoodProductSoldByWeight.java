@@ -1,4 +1,4 @@
-package TD2;
+
 public class FoodProductSoldByWeight extends FoodProduct{
 
     private double Poids;
